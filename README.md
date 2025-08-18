@@ -24,38 +24,23 @@ It supports adding/searching/removing books, registering members, issuing & retu
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-com.libraryapp
-
- ├── bean
- 
- │    ├── Book.java 
- 
- │    ├── Loan.java
- 
- │    └── Member.java
- 
- ├── exception
- 
- │    ├── BookNotAvailableException.java
- 
- │    ├── BookNotFoundException.java
- 
- │    └── MemberNotFoundException.java
- 
- ├── service
-
- │    └── LibraryService.java
- 
- ├── util
- 
- │    └── FileUtil.java
- 
- └── main
- 
-      └── LibraryApp.java   ← Main entry point
-
+    com.libraryapp
+    ├── bean          
+    │    ├── Book.java           
+    │    ├── Loan.java
+    │    └── Member.java        
+    ├── exception
+    │    ├── BookNotAvailableException.java
+    │    ├── BookNotFoundException.java
+    │    └── MemberNotFoundException.java
+    ├── service
+    │    └── LibraryService.java
+    ├── util
+    │    └── FileUtil.java
+    └── main
+         └── LibraryApp.java   ← Main entry point
 
 ---
 
